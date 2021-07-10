@@ -1,0 +1,18 @@
+@include tablet {
+    .contenido-nosotros {
+        @include grid(2, 2rem)
+    }
+}
+
+.texto-nosotros {
+    p {
+        &:first-of-type {
+            font-weight: $black;
+            padding-bottom: $separacion;
+        }
+    }
+}
+
+.imagen-nosotros {
+    max-width: 100%;
+}
