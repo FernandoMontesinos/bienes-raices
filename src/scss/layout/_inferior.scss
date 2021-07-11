@@ -6,7 +6,7 @@
     }
 }
 
-.entreda-blog{
+.entrada-blog{
     margin-bottom: 2rem;
 
     @include tablet{
@@ -16,6 +16,12 @@
     }
     &:last-of-type{
         margin-bottom: 0;
+    }
+}
+
+.informacion-meta{
+    span{
+        color: $amarillo;
     }
 }
 
