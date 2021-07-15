@@ -7,6 +7,7 @@
 .texto-nosotros {
     p {
         &:first-of-type {
+            margin-top: 3rem;
             font-weight: $black;
             padding-bottom: $separacion;
         }
